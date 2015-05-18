@@ -5,6 +5,10 @@ public abstract class CarreauPropriete extends Carreau {
 	private int _prixAchat;
 	private Joueur _proprietaire;
 
+    public CarreauPropriete(int num, String nom, Monopoly mono) {
+        super(num, nom, mono);
+    }
+
     /**
      * @return the _loyerBase
      */

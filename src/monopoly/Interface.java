@@ -6,14 +6,14 @@ public class Interface {
     /**
      * @return the _monopoly
      */
-    public Monopoly getMonopoly() {
+    private Monopoly getMonopoly() {
         return _monopoly;
     }
 
     /**
      * @param _monopoly the _monopoly to set
      */
-    public void setMonopoly(Monopoly _monopoly) {
+    private void setMonopoly(Monopoly _monopoly) {
         this._monopoly = _monopoly;
     }
 }

@@ -11,56 +11,56 @@ public class Groupe {
     /**
      * @return the _prixAchatMaison
      */
-    public int getPrixAchatMaison() {
+    private int getPrixAchatMaison() {
         return _prixAchatMaison;
     }
 
     /**
      * @param _prixAchatMaison the _prixAchatMaison to set
      */
-    public void setPrixAchatMaison(int _prixAchatMaison) {
+    private void setPrixAchatMaison(int _prixAchatMaison) {
         this._prixAchatMaison = _prixAchatMaison;
     }
 
     /**
      * @return the _prixAchatHotel
      */
-    public int getPrixAchatHotel() {
+    private int getPrixAchatHotel() {
         return _prixAchatHotel;
     }
 
     /**
      * @param _prixAchatHotel the _prixAchatHotel to set
      */
-    public void setPrixAchatHotel(int _prixAchatHotel) {
+    private void setPrixAchatHotel(int _prixAchatHotel) {
         this._prixAchatHotel = _prixAchatHotel;
     }
 
     /**
      * @return the _couleur
      */
-    public CouleurPropriete getCouleur() {
+    private CouleurPropriete getCouleur() {
         return _couleur;
     }
 
     /**
      * @param _couleur the _couleur to set
      */
-    public void setCouleur(CouleurPropriete _couleur) {
+    private void setCouleur(CouleurPropriete _couleur) {
         this._couleur = _couleur;
     }
 
     /**
      * @return the _proprietes
      */
-    public ArrayList getProprietes() {
+    private ArrayList getProprietes() {
         return _proprietes;
     }
 
     /**
      * @param _proprietes the _proprietes to set
      */
-    public void setProprietes(ArrayList _proprietes) {
+    private void setProprietes(ArrayList _proprietes) {
         this._proprietes = _proprietes;
     }
 }
